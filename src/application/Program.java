@@ -15,7 +15,8 @@ public class Program {
 		File path = new File(strPath);
 		
 		System.out.println("getName: " + path.getName()); /*Function getName() - Only name of file*/
-		System.out.println("getName: " + path.getParent()); /*Function getParent() - Only name of path*/
+		System.out.println("getParent: " + path.getParent()); /*Function getParent() - Only name of path*/
+		System.out.println("getPath: " + path.getPath()); /*Function getPath() - Show all path of file*/
 		
 		
 		sc.close();
